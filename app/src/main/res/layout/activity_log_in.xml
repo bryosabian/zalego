@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sabian="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zalego.LogInActivity">
+
+    <include layout="@layout/sabian_toolbar" />
+
+    <!--Main Content-->
+    <LinearLayout
+        android:id="@+id/rll_SingleZalegoContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:background="@color/sabian_actionbar_text_color"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+
+            <com.sabiantools.controls.SabianCondensedText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:text="Log In"
+                android:textColor="@color/sabian_font_color_standard"
+                android:textSize="17sp"
+                sabian:SabianRobotoType="Regular" />
+
+            <com.sabiantools.controls.SabianCondensedText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Please log in to continue"
+                android:textColor="#929292"
+                android:textSize="15sp"
+                sabian:SabianRobotoType="Regular" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <com.sabiantools.controls.SabianFloatLabel
+                android:id="@+id/sfl_Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="2dp"
+                android:hint="Enter Email Address"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/sabian_font_color_light_dark"
+                android:textColorHighlight="@color/colorPrimary"
+                android:textColorHint="@color/sabian_font_color_light_dark"
+                android:textSize="17sp"
+                android:theme="@style/ZalegoThemedEditFloatText"
+                sabian:theme="@style/ZalegoThemedEditFloatText" />
+
+            <com.sabiantools.controls.SabianFloatLabel
+                android:id="@+id/sfl_Password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:hint="Enter Password"
+                android:inputType="textPassword"
+                android:textColor="@color/sabian_font_color_light_dark"
+                android:textColorHighlight="@color/colorPrimary"
+                android:textColorHint="@color/sabian_font_color_light_dark"
+                android:textSize="17sp"
+                android:theme="@style/ZalegoThemedEditFloatText"
+                sabian:theme="@style/ZalegoThemedEditFloatText" />
+
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:id="@+id/btn_Submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Log In"
+                sabian:bb_icon_left="fa-sign-in"
+                sabian:bb_type="themed" />
+
+            <com.gc.materialdesign.views.ButtonFlat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Don't have an account? Sign Up"
+                android:id="@+id/btn_SignUp"
+                android:textColor="@color/colorPrimary"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

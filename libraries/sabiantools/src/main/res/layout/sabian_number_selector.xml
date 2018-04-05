@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sabian="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:text="+"
+        android:background="@drawable/sabian_number_selector_button"
+        android:id="@+id/btn_SabianNumberSelectorPlus"
+        />
+
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+
+        android:background="@drawable/sabian_number_selector_text"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:padding="5dp"
+            android:id="@+id/txt_SabianNumberSelectorText"
+            android:textColor="@color/sabian_font_color_light_dark"
+            android:textSize="14sp"
+            android:focusableInTouchMode="true"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:hint="1"
+            android:textAlignment="center"
+            android:textColorHint="@color/sabian_font_color_light_dark"
+            android:inputType="number"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:text="-"
+        android:background="@drawable/sabian_number_selector_button"
+        android:id="@+id/btn_SabianNumberSelectorMinus"
+        />
+
+</LinearLayout>

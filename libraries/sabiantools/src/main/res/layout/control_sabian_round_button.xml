@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sabian="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_ControlSabianRoundButtonContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/control_sabian_round_button"
+    android:paddingTop="12dp"
+    android:paddingBottom="12dp"
+    android:paddingLeft="8dp"
+    >
+
+    <com.beardedhen.androidbootstrap.FontAwesomeText
+        android:id="@+id/fat_ControlSabianRoundButtonIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:visibility="gone"
+        sabian:fa_icon="fa-user"
+        android:layout_centerInParent="true"
+        android:layout_alignParentLeft="true"
+        android:textColor="@color/sabian_actionbar_text_color"
+
+        />
+
+
+
+    <com.sabiantools.controls.SabianCondensedText
+        android:id="@+id/txt_ControlSabianRoundButtonText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:textColor="@color/sabian_actionbar_text_color"
+        android:textSize="14sp"
+        android:layout_centerInParent="true"
+        sabian:SabianRobotoType="Regular"
+        />
+</RelativeLayout>
+

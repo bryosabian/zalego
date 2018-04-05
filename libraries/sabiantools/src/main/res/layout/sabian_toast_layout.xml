@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sabian="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/actionBarSize"
+    android:background="@drawable/sabian_toast_layout_success"
+    android:id="@+id/ll_ToastContainer"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerVertical="true"
+
+        >
+    <com.beardedhen.androidbootstrap.FontAwesomeText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/sabian_actionbar_text_color"
+        android:textSize="14sp"
+        sabian:fa_icon="fa-check"
+        android:id="@+id/ft_ToastIcon"
+
+        />
+
+    <com.sabiantools.controls.SabianCondensedText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        sabian:SabianRobotoType="Regular"
+        android:textColor="@color/sabian_actionbar_text_color"
+        android:text="Success"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/sct_ToastText"
+        />
+    </LinearLayout>
+
+</RelativeLayout>

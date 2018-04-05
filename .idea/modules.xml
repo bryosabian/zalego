@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/libraries/AndroidHttpClient/AndroidHttpClient.iml" filepath="$PROJECT_DIR$/libraries/AndroidHttpClient/AndroidHttpClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/Bootstrap/Bootstrap.iml" filepath="$PROJECT_DIR$/libraries/Bootstrap/Bootstrap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/Gson/Gson.iml" filepath="$PROJECT_DIR$/libraries/Gson/Gson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/Guava/Guava.iml" filepath="$PROJECT_DIR$/libraries/Guava/Guava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/JodaTime/JodaTime.iml" filepath="$PROJECT_DIR$/libraries/JodaTime/JodaTime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/Jsoup/Jsoup.iml" filepath="$PROJECT_DIR$/libraries/Jsoup/Jsoup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/MaterialDesign/MaterialDesign.iml" filepath="$PROJECT_DIR$/libraries/MaterialDesign/MaterialDesign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/Picasso/Picasso.iml" filepath="$PROJECT_DIR$/libraries/Picasso/Picasso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/SabianBlankView/SabianBlankView.iml" filepath="$PROJECT_DIR$/libraries/SabianBlankView/SabianBlankView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/SabianViewSlider/SabianViewSlider.iml" filepath="$PROJECT_DIR$/libraries/SabianViewSlider/SabianViewSlider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zalego.iml" filepath="$PROJECT_DIR$/Zalego.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/libraries.iml" filepath="$PROJECT_DIR$/libraries/libraries.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/sabiantools/sabiantools.iml" filepath="$PROJECT_DIR$/libraries/sabiantools/sabiantools.iml" />
+    </modules>
+  </component>
+</project>

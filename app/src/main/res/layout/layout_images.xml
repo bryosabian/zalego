@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gc.materialdesign.views.Card xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="2dp"
+    >
+
+    <ProgressBar
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/pb_Progress"
+        android:layout_centerInParent="true"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <com.sabiantools.controls.SabianFitImage
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:id="@+id/sfi_Image"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            >
+        <com.sabiantools.controls.SabianCondensedText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sct_ImageText"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textColor="@color/sabian_font_color_standard"
+            />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</com.gc.materialdesign.views.Card>

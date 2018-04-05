@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:top="0dp" android:right="0dp" android:left="0dp" android:bottom="0dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/sabian_toast_danger"/>
+            <corners android:radius="2dp"/>
+            <stroke android:dashGap="10dp" />
+            <padding android:top="@dimen/sabian_toast_padding" android:right="@dimen/sabian_toast_padding" android:left="@dimen/sabian_toast_padding" android:bottom="@dimen/sabian_toast_padding" />
+        </shape>
+    </item>
+</layer-list>

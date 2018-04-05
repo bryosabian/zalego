@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/control_sabian_round_button_pressed" />
+            <stroke android:width="1dp" android:color="@android:color/transparent" />
+            <corners
+                android:topLeftRadius="@dimen/control_sabian_round_button_radius_top"
+                android:topRightRadius="@dimen/control_sabian_round_button_radius_top"
+                android:bottomLeftRadius="@dimen/control_sabian_round_button_radius_bottom"
+                android:bottomRightRadius="@dimen/control_sabian_round_button_radius_bottom"
+                />
+        </shape>
+    </item>
+
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="@color/control_sabian_round_button_disabled" />
+            <stroke android:width="1dp" android:color="@android:color/transparent" />
+            <corners
+                android:topLeftRadius="@dimen/control_sabian_round_button_radius_top"
+                android:topRightRadius="@dimen/control_sabian_round_button_radius_top"
+                android:bottomLeftRadius="@dimen/control_sabian_round_button_radius_bottom"
+                android:bottomRightRadius="@dimen/control_sabian_round_button_radius_bottom"
+                />
+        </shape>
+    </item>
+
+
+    <item>
+        <shape>
+            <solid android:color="@color/control_sabian_round_button" />
+            <stroke android:width="1dp" android:color="@android:color/transparent" />
+            <corners
+                android:topLeftRadius="@dimen/control_sabian_round_button_radius_top"
+                android:topRightRadius="@dimen/control_sabian_round_button_radius_top"
+                android:bottomLeftRadius="@dimen/control_sabian_round_button_radius_bottom"
+                android:bottomRightRadius="@dimen/control_sabian_round_button_radius_bottom"
+                />
+        </shape>
+    </item>
+
+</selector>

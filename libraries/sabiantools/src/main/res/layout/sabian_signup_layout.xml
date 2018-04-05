@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sabian="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:background="@color/sabian_actionbar_text_color"
+    >
+
+    <!--MainContent-->
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                android:orientation="vertical"
+                android:layout_marginTop="8dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="vertical"
+
+                    >
+                    <com.beardedhen.androidbootstrap.FontAwesomeText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textSize="25sp"
+                        android:textColor="@color/sabian_font_color_light_dark"
+                        sabian:fa_icon="fa-user"
+                        android:id="@+id/ft_SabianSignUpHeaderText"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textSize="16sp"
+                        android:textColor="@color/sabian_font_color_light_dark"
+                        android:text="@string/signup_text"
+                        android:layout_marginTop="8dp"
+                        android:id="@+id/txt_SabianSignUpHeaderText"
+
+
+                        />
+                </LinearLayout>
+
+
+
+
+                <com.sabiantools.controls.SabianHeaderBanner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    sabian:sabianNumIcons="0"
+                    sabian:sabianTitle="Personal Details"
+                    sabian:sabianHeaderIcon="fa-user"
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/shb_or"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    >
+                    <com.sabiantools.controls.SabianFloatLabel
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Firstname"
+                        android:id="@+id/txt_SabianSignUpFirstname"
+                        android:theme="@style/SabianEditTextTheme"
+                        android:textColor="@color/sabian_font_color_standard"
+                        android:layout_weight="1"
+
+                        />
+
+                    <com.sabiantools.controls.SabianFloatLabel
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Lastname"
+                        android:id="@+id/txt_SabianSignUpLastname"
+                        android:theme="@style/SabianEditTextTheme"
+                        android:textColor="@color/sabian_font_color_standard"
+                        android:layout_weight="1"
+
+                        />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="3dp"
+                    >
+                <com.sabiantools.controls.SabianFloatLabel
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email Address"
+                    android:id="@+id/txt_SabianSignUpEmail"
+                    android:theme="@style/SabianEditTextTheme"
+                    android:textColor="@color/sabian_font_color_standard"
+                    android:inputType="textEmailAddress"
+                    android:layout_weight="1"
+                    />
+
+                    <com.sabiantools.controls.SabianFloatLabel
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Phone Number"
+                        android:id="@+id/txt_SabianSignUpPhone"
+                        android:theme="@style/SabianEditTextTheme"
+                        android:textColor="@color/sabian_font_color_standard"
+                        android:inputType="phone"
+                        android:layout_weight="1"
+                        />
+
+                </LinearLayout>
+
+
+                <com.sabiantools.controls.SabianHeaderBanner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    sabian:sabianNumIcons="0"
+                    sabian:sabianTitle="Account Details"
+                    sabian:sabianHeaderIcon="fa-user"
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/shb_orc"
+                    />
+
+                <com.sabiantools.controls.SabianFloatLabel
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Username"
+                    android:id="@+id/txt_SabianSignUpUsername"
+                    android:theme="@style/SabianEditTextTheme"
+                    android:textColor="@color/sabian_font_color_standard"
+                    android:inputType="text"
+                    android:layout_marginTop="3dp"
+
+                    />
+
+                <com.sabiantools.controls.SabianFloatLabel
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:id="@+id/txt_SabianSignUpPassword"
+                    android:theme="@style/SabianEditTextTheme"
+                    android:textColor="@color/sabian_font_color_standard"
+                    android:inputType="textPassword"
+                    android:layout_marginTop="3dp"
+
+                    />
+
+
+                <com.beardedhen.androidbootstrap.BootstrapButton
+                    android:id="@+id/btn_SabianSignUpButton"
+                    style="?android:textAppearanceSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:text="Sign Up"
+                    android:textStyle="bold"
+                    sabian:bb_type="inverse"
+                    sabian:bb_icon_left="fa-sign-in"
+
+
+                    />
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+
+
+</LinearLayout>

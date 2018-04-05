@@ -1,0 +1,6 @@
+include ':app'
+
+/*Sabian Tools Dependancies*/
+include ':libraries:sabiantools'
+include ':libraries:Bootstrap', ':libraries:Picasso', ':libraries:MaterialDesign', ':libraries:Gson', ':libraries:Guava', ':libraries:AndroidHttpClient', ':libraries:JodaTime'
+include ':libraries:SabianBlankView',':libraries:SabianViewSlider',':libraries:Jsoup'

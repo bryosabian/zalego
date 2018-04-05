@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\edith\\AndroidStudioProjects\\HireANanny\\libraries\\Bootstrap\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\bootstrap_thumbnail_circle.xml",
+        "source": "C:\\Users\\edith\\AndroidStudioProjects\\HireANanny\\libraries\\Bootstrap\\build\\intermediates\\bundles\\debug\\res\\layout\\bootstrap_thumbnail_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\edith\\AndroidStudioProjects\\HireANanny\\libraries\\Bootstrap\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\bootstrap_thumbnail.xml",
+        "source": "C:\\Users\\edith\\AndroidStudioProjects\\HireANanny\\libraries\\Bootstrap\\build\\intermediates\\bundles\\debug\\res\\layout\\bootstrap_thumbnail.xml"
+    },
+    {
+        "merged": "C:\\Users\\edith\\AndroidStudioProjects\\HireANanny\\libraries\\Bootstrap\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\placeholder.xml",
+        "source": "C:\\Users\\edith\\AndroidStudioProjects\\HireANanny\\libraries\\Bootstrap\\build\\intermediates\\bundles\\debug\\res\\layout\\placeholder.xml"
+    },
+    {
+        "merged": "C:\\Users\\edith\\AndroidStudioProjects\\HireANanny\\libraries\\Bootstrap\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\bootstrap_button.xml",
+        "source": "C:\\Users\\edith\\AndroidStudioProjects\\HireANanny\\libraries\\Bootstrap\\build\\intermediates\\bundles\\debug\\res\\layout\\bootstrap_button.xml"
+    }
+]

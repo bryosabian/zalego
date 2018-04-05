@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sabiantools.controls.SabianCondensedText xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sabian="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/txt_SabianMaterialListModalText"
+    android:textColor="@color/sabian_font_color_standard"
+    android:textSize="14sp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingBottom="15dp"
+    android:paddingTop="15dp"
+    android:text="Hello"
+    sabian:SabianRobotoType="Regular"
+    />

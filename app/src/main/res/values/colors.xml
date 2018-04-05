@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/zalego_theme_background</color><!--#3F51B5-->
+    <color name="colorPrimaryDark">@color/zalego_theme_background_dark</color><!--#303F9F-->
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="zalego_theme_background">#68C8C7</color><!--#68C8C7-->
+    <color name="zalego_theme_background_dark">#41b4b2</color><!--#41b4b2-->
+</resources>

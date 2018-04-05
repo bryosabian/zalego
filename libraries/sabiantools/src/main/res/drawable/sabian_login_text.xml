@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true">
+        <shape>
+            <stroke android:color="@color/sabian_actionbar_text_color" />
+        </shape>
+    </item>
+
+    <item android:state_focused="false">
+        <shape>
+            <stroke android:color="@color/sabian_actionbar_text_color" />
+        </shape>
+    </item>
+
+    <item android:state_first="true">
+        <shape>
+            <stroke android:color="@color/sabian_actionbar_text_color" />
+        </shape>
+    </item>
+
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:color="@color/sabian_actionbar_text_color" />
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+</selector>

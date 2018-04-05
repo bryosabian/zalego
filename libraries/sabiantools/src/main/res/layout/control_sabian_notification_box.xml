@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gc.materialdesign.views.Card
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sabian="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="@color/sabian_notification_inverse"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:id="@+id/cdv_SabianNotificationContainer"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="7dp"
+        android:id="@+id/ll_SabianNotificationContainer"
+
+        >
+    <com.sabiantools.controls.SabianCondensedText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/sabian_actionbar_text_color"
+        android:text="Notification"
+        android:id="@+id/txt_SabianNotificationTitle"
+        sabian:SabianRobotoType="Medium"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:textSize="15sp"
+        />
+
+        <com.sabiantools.controls.SabianCondensedText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#f9f9f9"
+            android:text="Notification Description"
+            android:id="@+id/txt_SabianNotificationDescription"
+            android:layout_marginTop="6dp"
+            android:textSize="14sp"
+            sabian:SabianRobotoType="Regular"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/ll_SabianNotificationContainer"
+        android:id="@+id/v_SabianNotificationDivider"
+        android:background="#22ffffff"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/v_SabianNotificationDivider"
+        android:paddingTop="1dp"
+        android:paddingBottom="1dp"
+        android:paddingRight="5dp"
+        >
+        <com.gc.materialdesign.views.ButtonFlat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="View More"
+            android:textColor="#fff"
+            android:id="@+id/btn_SabianNotificationButton"
+            />
+
+    </RelativeLayout>
+
+</com.gc.materialdesign.views.Card>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SabianTransparentButtonText">
+        <attr name="sabian_edit_text" format="string"></attr>
+        <attr name="sabian_edit_hint" format="string"></attr>
+        <attr name="sabian_edit_icon" format="string"></attr>
+        <attr name="sabian_edit_textColor" format="color"></attr>
+        <attr name="sabian_edit_password" format="boolean"></attr>
+
+    </declare-styleable>
+
+    <declare-styleable name="SabianHeaderBanner">
+        <attr name="sabianTitle" format="string"></attr>
+        <attr name="sabianHeaderIcon" format="string"></attr>
+        <attr name="sabianNumIcons" format="integer"></attr>
+        <attr name="sabianHideIcons" format="boolean"></attr>
+        <attr name="sabianDisplayDividers" format="boolean"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="SabianCondensedText">
+        <attr name="SabianCondensedType" format="string"></attr>
+        <attr name="SabianRobotoType" format="string"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="SabianSelector">
+        <attr name="SabianSelectorText" format="string"></attr>
+        <attr name="SabianSelectorTitle" format="string"></attr>
+        <attr name="SabianSelectorTextColor" format="color"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="SabianSeminarBox">
+        <attr name="SabianTitle" format="string"></attr>
+        <attr name="SabianSubTitle" format="string"></attr>
+        <attr name="SabianImage" format="reference"></attr>
+    </declare-styleable>
+    <declare-styleable name="SabianHorizontalList">
+        <attr name="sabianColumnWidth" format="dimension"></attr>
+    </declare-styleable>
+    <declare-styleable name="SabianCategoryBoxSlider">
+        <attr name="sabianHorizontalColumnWidth" format="dimension"></attr>
+        <attr name="sabianLeftMarginOffset" format="dimension"></attr>
+        <attr name="sabianRighMarginOffset" format="dimension"></attr>
+        <attr name="sabianFirstItemMargin" format="dimension"></attr>
+        <attr name="sabianLastItemMargin" format="dimension"></attr>
+    </declare-styleable>
+    <declare-styleable name="StaggeredGridView">
+        <attr name="drawSelectorOnTop" format="boolean" />
+        <attr name="numColumns" format="integer" />
+        <attr name="itemMargin" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="SabianStatsBox">
+        <attr name="sabianStatIcon" format="string"></attr>
+        <attr name="sabianStatText" format="string"></attr>
+        <attr name="sabianStatColor" format="color"></attr>
+    </declare-styleable>
+    <declare-styleable name="SabianFontAwesomeLabel">
+        <attr name="sabianIcon" format="string"></attr>
+        <attr name="sabianText" format="string"></attr>
+        <attr name="sabianTextColor" format="color"></attr>
+        <attr name="sabianTextSize" format="dimension"></attr>
+        <attr name="sabianOrientation" format="string"></attr>
+        <attr name="sabianBold" format="boolean"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="SabianNumberSelector">
+        <attr name="sabian_value" format="integer"></attr>
+        <attr name="sabian_max_value" format="integer"></attr>
+        <attr name="sabian_min_value" format="integer"></attr>
+
+    </declare-styleable>
+
+    <declare-styleable name="SabianCircleView">
+        <attr name="sc_titleText" format="string" />
+        <attr name="sc_subtitleText" format="string" />
+        <attr name="sc_titleSize" format="dimension" />
+        <attr name="sc_subtitleSize" format="dimension" />
+        <attr name="sc_strokeWidthSize" format="float" />
+        <attr name="sc_fillRadius" format="float" />
+        <attr name="sc_titleColor" format="color" />
+        <attr name="sc_subtitleColor" format="color" />
+        <attr name="sc_fillColor" format="color" />
+        <attr name="sc_strokeColorValue" format="color" />
+        <attr name="sc_backgroundColorValue" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="SabianCircleContainer">
+        <attr name="scc_titleText" format="string" />
+        <attr name="scc_subtitleText" format="string" />
+        <attr name="scc_titleSize" format="dimension" />
+        <attr name="scc_subtitleSize" format="dimension" />
+        <attr name="scc_strokeWidthSize" format="float" />
+        <attr name="scc_fillRadius" format="float" />
+        <attr name="scc_titleColor" format="color" />
+        <attr name="scc_subtitleColor" format="color" />
+        <attr name="scc_fillColor" format="color" />
+        <attr name="scc_strokeColorValue" format="color" />
+        <attr name="scc_backgroundColorValue" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="SabianRoundButton">
+        <attr name="srb_Text" format="string" />
+        <attr name="srb_TextColor" format="color"/>
+        <attr name="srb_Icon" format="string"/>
+        <attr name="srb_Type" format="string" />
+        <attr name="srb_TypeDrawable" format="reference" />
+    </declare-styleable>
+
+
+</resources>

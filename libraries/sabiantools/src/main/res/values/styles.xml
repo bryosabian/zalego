@@ -1,0 +1,125 @@
+<resources>
+
+
+
+    <!--Light.NoActionBar-->
+    <style name="SabianAdvancedBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorSecondary">@color/sabian_actionbar_text_color</item>
+        <item name="colorPrimary">@color/sabian_actionbar_text_color</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+
+    <style name="SabianAdvancedBar.Dark">
+        <item name="colorPrimary">@color/sabian_font_color_standard</item>
+        <item name="android:textColorPrimary">@color/sabian_font_color_standard</item>
+    </style>
+
+    <!--Home-->
+    <style name="SabianAdvancedBar.Home" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:actionMenuTextColor">@color/sabian_font_color_standard</item>
+        <item name="actionMenuTextColor">@color/sabian_font_color_standard</item>
+    </style>
+
+    <style name="SabianAdvancedBar.White">
+
+        <item name="android:background">@color/sabian_actionbar_text_color</item>
+        <item name="background">@color/sabian_actionbar_text_color</item>
+
+
+    </style>
+
+    <style name="SabianAdvancedBar.NotSoDark">
+        <item name="android:textColorSecondary">@color/sabian_font_color_light_dark</item>
+        <item name="colorPrimary">@color/sabian_font_color_light_dark</item>
+        <item name="android:textColorPrimary">@color/sabian_font_color_light_dark</item>
+    </style>
+
+        <style name="SabianLoginTheme" parent="Theme.AppCompat.Light.NoActionBar">
+            <item name="android:textColorSecondary">@color/sabian_actionbar_text_color</item>
+            <item name="colorPrimary">@color/sabian_actionbar_text_color</item>
+            <item name="colorPrimaryDark">@color/sabian_actionbar_text_color</item>
+            <item name="colorAccent">@color/sabian_actionbar_text_color</item>
+        </style>
+
+        <style name="SabianEditTextTheme" parent="Theme.AppCompat.Light.NoActionBar">
+            <item name="android:textColorSecondary">@color/sabian_edit_text_stroke</item>
+            <item name="colorPrimary">@color/sabian_edit_text_stroke</item>
+            <item name="colorPrimaryDark">@color/sabian_edit_text_stroke</item>
+            <item name="colorAccent">@color/sabian_edit_text_stroke</item>
+        </style>
+
+        <style name="SabianTabTheme" parent="Theme.AppCompat.Light.NoActionBar">
+            <item name="android:textColorSecondary">@color/sabian_actionbar_text_color</item>
+            <item name="colorPrimary">@color/sabian_actionbar_text_color</item>
+            <item name="android:textColorPrimary">@android:color/white</item>
+        </style>
+
+        <!--Transluscent-->
+        <style name="SabianTransparentTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+            <item name="android:actionBarStyle">@style/SabianTransparentActionBar</item>
+            <item name="actionBarStyle">@style/SabianTransparentActionBar</item>
+            <item name="android:windowActionBarOverlay">true</item>
+            <item name="windowActionBarOverlay">true</item>
+            <item name="android:windowContentOverlay">@null</item>
+            <!--<item name="android:windowTranslucentStatus">false</item>
+           -->
+        </style>
+
+        <style name="SabianTransparentActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+            <item name="android:background">@android:color/transparent</item>
+            <item name="background">@android:color/transparent</item>
+            <item name="colorPrimary">@android:color/transparent</item>
+            <item name="android:colorPrimary">@android:color/transparent</item>
+        </style>
+        <!--Transluscent-->
+
+
+        <style name="SabianContentDivider">
+            <item name="android:background">#E0EDED</item>
+        </style>
+
+        <style name="SabianContentDivider.Horizontal">
+            <item name="android:layout_height">1dp</item>
+            <item name="android:layout_width">match_parent</item>
+        </style>
+
+        <style name="SabianContentDivider.Vertical">
+            <item name="android:layout_height">10dp</item>
+            <item name="android:layout_width">1dp</item>
+        </style>
+
+        <style name="SabianHeaderContainer">
+            <item name="android:background">@drawable/sabian_list_heder_container</item>
+        </style>
+
+        <style name="SabianHeaderContainerText">
+            <item name="android:layout_weight">1</item>
+            <item name="android:layout_width">wrap_content</item>
+            <item name="android:layout_height">wrap_content</item>
+        </style>
+
+        <style name="SabianTransparentEditTheme" parent="Theme.AppCompat.Light.NoActionBar">
+            <item name="android:textColorSecondary">@color/sabian_actionbar_text_color</item>
+            <item name="colorPrimary">@color/sabian_actionbar_text_color</item>
+            <item name="colorPrimaryDark">@color/sabian_actionbar_text_color</item>
+            <item name="colorAccent">@color/sabian_actionbar_text_color</item>
+
+        </style>
+
+
+
+        <style name="SabianCondensedTextEditor">
+            <item name="android:textColor">@color/sabian_font_color_standard</item>
+            <item name="colorPrimary">@color/sabian_font_color_standard</item>
+            <item name="colorPrimaryDark">@color/sabian_font_color_standard</item>
+            <item name="colorAccent">@color/sabian_font_color_standard</item>
+            <item name="android:textColorSecondary">@color/sabian_font_color_standard</item>
+        </style>
+
+    <style name="SabianMaterialModalTheme" parent="Theme.AppCompat.Dialog">
+        <item name="android:animation">@anim/dialog_main_show_amination</item>
+        <item name="android:background">@drawable/sabian_material_modal_bg</item>
+    </style>
+
+
+</resources>

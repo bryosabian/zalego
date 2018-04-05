@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sabian="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/sabian_transparent_text_container"
+    android:paddingLeft="6dp"
+    android:paddingRight="6dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    >
+    <com.beardedhen.androidbootstrap.FontAwesomeText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/sabian_actionbar_text_color"
+        android:id="@+id/img_SabianEditIcon"
+        sabian:fa_icon="fa-user"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:padding="5dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/txt_SabianEditText"
+        android:textColor="@color/sabian_actionbar_text_color"
+        android:textSize="14sp"
+        android:focusableInTouchMode="true"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:hint="Enter Details"
+        android:textColorHint="@color/sabian_actionbar_text_color"
+        />
+</LinearLayout>

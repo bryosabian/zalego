@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sabian="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sabian_actionbar_text_color"
+    android:orientation="vertical">
+
+    <!--header-->
+    <RelativeLayout
+        android:id="@+id/rll_SabianMaterialModalHeader"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sabian_material_modal_header_height"
+        android:background="@color/sabian_theme_background"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.sabiantools.controls.SabianFitImage
+                    android:id="@+id/sfi_SabianMaterialModalIcon"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_centerInParent="true"
+                    sabian:srcCompat="@drawable/ic_sabian_star_48dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <com.sabiantools.controls.SabianCondensedText
+                    android:id="@+id/sct_SabianMaterialModalTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Product Item"
+                    android:textColor="@color/sabian_modal_header_color"
+                    android:textSize="15sp"
+                    sabian:SabianCondensedType="Regular"
+
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <com.sabiantools.controls.SabianFitImage
+            android:id="@+id/sfi_SabianMaterialModalIconClose"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:clickable="true"
+            android:src="@drawable/ic_clear_white_48dp" />
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/ll_SabianMaterialModalContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/sabian_actionbar_text_color"
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                android:paddingLeft="17dp"
+                android:paddingRight="17dp"
+                android:paddingTop="10dp">
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <com.gc.materialdesign.views.ButtonFlat
+                android:id="@+id/btn_SabianMaterialModalOk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/sabian_theme_background"
+                android:text="Submit"
+
+                />
+
+            <com.gc.materialdesign.views.ButtonFlat
+                android:id="@+id/btn_SabianMaterialModalMiddle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@color/sabian_theme_background"
+                android:text="Cancel"
+                android:visibility="gone"
+
+                />
+
+            <com.gc.materialdesign.views.ButtonFlat
+                android:id="@+id/btn_SabianMaterialModalCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@color/sabian_theme_background"
+                android:text="Cancel"
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/libraries" />
+            <option value="$PROJECT_DIR$/libraries/AndroidHttpClient" />
+            <option value="$PROJECT_DIR$/libraries/Bootstrap" />
+            <option value="$PROJECT_DIR$/libraries/Gson" />
+            <option value="$PROJECT_DIR$/libraries/Guava" />
+            <option value="$PROJECT_DIR$/libraries/JodaTime" />
+            <option value="$PROJECT_DIR$/libraries/Jsoup" />
+            <option value="$PROJECT_DIR$/libraries/MaterialDesign" />
+            <option value="$PROJECT_DIR$/libraries/Picasso" />
+            <option value="$PROJECT_DIR$/libraries/SabianBlankView" />
+            <option value="$PROJECT_DIR$/libraries/SabianViewSlider" />
+            <option value="$PROJECT_DIR$/libraries/sabiantools" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

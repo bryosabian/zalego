@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sabian="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll_SabianLoginParent"
+    >
+
+
+    <!--BGSlider-->
+    <com.sabiantools.controls.SabianFitImage
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/img_bgimageslider"
+        android:scaleType="fitXY"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#77000000"
+        />
+
+    <!--MainContent-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:isScrollContainer="false"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="30dp"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="30dp"
+                        android:layout_centerHorizontal="true"
+                        >
+
+                        <com.beardedhen.androidbootstrap.FontAwesomeText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="29sp"
+                            android:textColor="@color/sabian_actionbar_text_color"
+                            sabian:fa_icon="fa-book"
+                            android:id="@+id/ft_SabianHeaderIcon"
+                            android:textStyle="bold"
+                            android:layout_gravity="center"
+                            />
+
+                        <com.sabiantools.controls.SabianCondensedText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/login_title"
+                            android:id="@+id/txv_SabianLoginHeaderText"
+                            android:textSize="30dp"
+                            android:textColor="@color/sabian_actionbar_text_color"
+                            android:layout_marginTop="5dp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:orientation="vertical"
+                        android:layout_marginTop="250dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+
+                        >
+                        <com.sabiantools.controls.SabianTransparentButtonText
+                            android:id="@+id/txt_SabianLogInEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            sabian:sabian_edit_hint="Enter Username"
+                            sabian:sabian_edit_textColor="@color/sabian_actionbar_text_color"
+                            sabian:sabian_edit_icon="fa-user"
+
+                            />
+
+                        <com.sabiantools.controls.SabianTransparentButtonText
+                            android:id="@+id/txt_SabianLogInPassword"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            sabian:sabian_edit_hint="Enter Password"
+                            sabian:sabian_edit_password="true"
+                            sabian:sabian_edit_textColor="@color/sabian_actionbar_text_color"
+                            sabian:sabian_edit_icon="fa-lock"
+                            android:layout_marginTop="12dp"
+
+                            />
+
+                        <com.beardedhen.androidbootstrap.BootstrapButton
+                            android:id="@+id/btn_SabianLoginButton"
+                            style="?android:textAppearanceSmall"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:text="Sign In"
+                            android:textStyle="bold"
+                            sabian:bb_type="inverse_transparent"
+                            sabian:bb_icon_left="fa-sign-in"
+
+
+                            />
+
+
+                    </LinearLayout>
+
+
+
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/sabian_actionbar_text_color"
+                android:id="@+id/txt_SabianSignUpFooterText"
+                android:text="Create An Account"
+                android:textSize="14sp"
+                android:layout_centerInParent="true"
+
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

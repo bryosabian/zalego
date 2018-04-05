@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sabian Tools</string>
+
+    <string name="login_title">Log In To Shapes</string>
+
+    <string name="signup_text">Register To Shapes</string>
+</resources>

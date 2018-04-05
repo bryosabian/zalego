@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sabian="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.gc.materialdesign.views.Card
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5F7D88"
+
+        android:id="@+id/cdv_SabianStatsContainer"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true"
+            >
+        <com.beardedhen.androidbootstrap.FontAwesomeText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#E4ECEE"
+                android:id="@+id/ft_SabianStatsIcon"
+                android:layout_gravity="center_horizontal|center_vertical"
+                />
+
+            <com.sabiantools.controls.SabianCondensedText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="Stats Goes Here"
+                android:id="@+id/txt_SabianStatsText"
+                sabian:SabianCondensedType="Regular"
+                android:textColor="@color/sabian_actionbar_text_color"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginTop="4dp"
+                />
+        </LinearLayout>
+
+
+
+    </com.gc.materialdesign.views.Card>
+
+</LinearLayout>
