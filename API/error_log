@@ -1,0 +1,11 @@
+[05-Apr-2018 14:24:54 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'cloudsyn_zalego'@'localhost' to database 'cloudsyn_zaslego' in /home/cloudsyn/public_html/zalego/config.php on line 2
+[05-Apr-2018 14:29:06 UTC] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/cloudsyn/public_html/zalego/signup.php on line 26
+[05-Apr-2018 14:31:18 UTC] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/cloudsyn/public_html/zalego/signup.php on line 24
+[05-Apr-2018 14:31:18 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/cloudsyn/public_html/zalego/signup.php on line 37
+[05-Apr-2018 14:31:18 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/cloudsyn/public_html/zalego/signup.php on line 38
+[05-Apr-2018 14:43:13 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/cloudsyn/public_html/zalego/login.php on line 16
+[05-Apr-2018 14:44:40 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/cloudsyn/public_html/zalego/login.php on line 16
+[05-Apr-2018 15:23:34 UTC] PHP Fatal error:  Call to undefined function mysqli_() in /home/cloudsyn/public_html/zalego/images.php on line 4
+[05-Apr-2018 15:23:47 UTC] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/cloudsyn/public_html/zalego/images.php on line 5
+[05-Apr-2018 15:24:10 UTC] PHP Fatal error:  Call to a member function execute() on boolean in /home/cloudsyn/public_html/zalego/images.php on line 5
+[05-Apr-2018 15:24:33 UTC] PHP Fatal error:  Call to undefined method mysqli_result::execute() in /home/cloudsyn/public_html/zalego/images.php on line 5
