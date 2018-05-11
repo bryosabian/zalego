@@ -3,6 +3,7 @@ package com.zalego;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.DatePicker;
 
 import com.beardedhen.androidbootstrap.BootstrapButton;
 import com.gc.materialdesign.widgets.ProgressDialog;
@@ -18,12 +19,14 @@ import com.sabiantools.utilities.SabianUtilities;
 import com.zalego.users.ZalegoUser;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 
 import cz.msebera.android.httpclient.Header;
 
 public class SignUpActivity extends SabianActivity {
 
-    private SabianFloatLabel txt_Firstname, txt_Email, txt_DOB, txt_Password;
+    private SabianFloatLabel txt_Firstname, txt_Email, txt_Password;
+    private DatePicker dtdDOB;
     private BootstrapButton btn_Gender, btn_Languages;
     private BootstrapButton btn_Finish;
     private ZalegoUser user = new ZalegoUser();
@@ -39,7 +42,7 @@ public class SignUpActivity extends SabianActivity {
 
         txt_Firstname = (SabianFloatLabel) findViewById(R.id.sfl_Firstname);
         txt_Email = (SabianFloatLabel) findViewById(R.id.sfl_Email);
-        txt_DOB = (SabianFloatLabel) findViewById(R.id.sfl_DateOfBirth);
+        dtdDOB = (DatePicker) findViewById(R.id.dp_Date);
         txt_Password = (SabianFloatLabel) findViewById(R.id.sfl_Password);
 
         btn_Gender = (BootstrapButton) findViewById(R.id.btn_Gender);
@@ -105,7 +108,15 @@ public class SignUpActivity extends SabianActivity {
         user.setFirstname(txt_Firstname.getText());
         user.setEmail(txt_Email.getText());
         user.setPassword(txt_Password.getText());
-        user.setDob(txt_DOB.getText());
+
+        int year = dtdDOB.getYear();
+        int month = dtdDOB.getMonth() + 1;
+        int day = dtdDOB.getDayOfMonth();
+        Calendar calendar=Calendar.getInstance();
+        calendar.set(Calendar.YEAR, year);
+        calendar.set(Calendar.MONTH, month - 1); //-1 to account for the zero based calendar month index
+        calendar.set(Calendar.DAY_OF_MONTH, day);
+        user.setDob(calendar.getTime().toString());
 
         if(!SabianUtilities.getEmailValidator().validate(user.getEmail())){
             SabianUtilities.DisplayMessage("Invalid email address");
